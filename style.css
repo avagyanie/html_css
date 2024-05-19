@@ -1,0 +1,51 @@
+body {
+    background: rgb(216, 230, 235);
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.top .container {
+    display: flex;
+    align-items: center;
+}
+
+.top img {
+    height: 120px;
+    width: 80px;
+}
+
+.top h1 {
+    margin-left: 10px;
+    color: black;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color:black;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid;
+    width: 33%;
+    height: 35px;
+    font-size: 25px;
+    font-family: serif;
+    background-color: whitesmoke;
+  }
+
+.link {
+    text-align: right;
+    padding-right: 472px;
+}
+
+.link p {
+    font-size: 18px;
+}
