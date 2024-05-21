@@ -1,0 +1,38 @@
+body {
+    background-color: whitesmoke;
+}
+
+body p {
+    text-align: center;
+    font-family: serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.table {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.table table {
+    width: 100%;
+    color: black;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font: bold;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.table td {
+    height: 35px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+.table td[colspan] {
+    border: none;
+}
